@@ -96,7 +96,7 @@ export class AppComponent implements OnInit {
           }
         },
       (error: any) => console.log(error),
-      () => console.log('Done deleting user'),
+      () => console.log('Done uploading files'),
     );
   }
 }
